@@ -80,7 +80,7 @@ nav {
 .about {
   background-color: white;
   border: 1px solid #dfe1e6;
-  background-image: url("assets/img/header-shapes.png");
+  background-image: url("./img/header-shapes.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
