@@ -7,11 +7,14 @@
 > - Usage of flexbox in the page.
 > - Use of images and backgrounds to enhance the look of the website..
 
+## Project Preview 
 
+![screenshot](assets/img/preview.png)
 ## Built With
 
 - HTML
 - CSS
+- Github
 
 ## Authors
 
@@ -25,6 +28,19 @@
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used 🔰
+- Inspiration 💘
+- Microverse program ⚡
+- My standup team 🏹
+- My family's support 🙌
 
 ## 📝 License
 
