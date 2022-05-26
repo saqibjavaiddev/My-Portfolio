@@ -78,7 +78,7 @@ nav {
 }
 
 .about {
-  background-color: white;
+  
   border: 1px solid #dfe1e6;
   background-image: url("./img/header-shapes.png");
   background-repeat: no-repeat;
@@ -488,9 +488,4 @@ height: 220px;
   line-height: 20px !important;
   color: #253858 !important;
   margin-left: 15px !important;
-}
-
-.final_wrap {
-  background-color: #fff;
-  border-radius: 7.5%;
 }
