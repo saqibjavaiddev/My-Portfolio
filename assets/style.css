@@ -371,9 +371,13 @@ section > p {
   margin-right: 12px;
 }
 
-.lisframes div { margin-right: 24px; } 
+.lisframes div { 
+  margin-right: 24px; 
+} 
 
-.lisframes div img { vertical-align: middle; }
+.lisframes div img { 
+  vertical-align: middle; 
+}
 
 #programming {
   display: flex;
