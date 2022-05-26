@@ -250,7 +250,7 @@ section > p {
   border-radius: 5px;
   width: 124px;
   height: 48px;
-  top: calc(50% - 48px/2);
+  top: calc(50% - 48px / 2);
   margin-top: 16px;
   padding: 10px;
   text-align: center;
@@ -387,15 +387,14 @@ section > p {
   margin-right: 24px;
   list-style: none;
   border-radius: 8px;
-  font-family: 'Poppins';
   font-weight: 500;
   font-size: 20px;
 }
-#frameworks li {
+
+#frameworks ul li {
   margin-right: 24px;
   list-style: none;
   border-radius: 8px;
-  font-family: 'Poppins';
   font-weight: 500;
   font-size: 20px;
   margin-top:10px;
