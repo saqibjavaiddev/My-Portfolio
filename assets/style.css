@@ -131,8 +131,9 @@ section > p {
   font-size: 21px;
 }
 .work {
-  margin-top: 100px;
+  padding-top: 100px;
   display: grid;
+  background-color: #E5E5E5;
 
 }
 .project {
@@ -239,3 +240,257 @@ height: 220px;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 .external_link a:hover { color: #fff; }
+#about_me {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+#about_me h1 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  display: flex;
+  align-items: flex-end;
+}
+
+#presentation {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+#profile_link {
+  display: flex;
+  flex-direction: column;
+}
+
+#profile_link h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#profile_link h2:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+  
+}
+
+#profile_link ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#profile_link ul li {
+  list-style: none;
+  margin-right: 12px;
+}
+
+#my_resume {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 10px;
+  align-self: baseline;
+ 
+}
+
+#my_resume:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+#my_skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-left: 24px;
+}
+
+#languages_skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-inf {
+  margin-left: 24px;
+  margin-top: 114px;
+  margin-right: 12px;
+}
+
+.lisframes {
+  display: flex;
+  justify-content: space-between;
+}
+
+#presentation {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+#profile_link {
+  display: flex;
+  flex-direction: column;
+}
+
+#profile_link h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+#profile_link h2:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#profile_link ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#profile_link ul li {
+  list-style: none;
+  margin-right: 12px;
+}
+
+#languages_skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-inf {
+  margin-left: 24px;
+  margin-top: 114px;
+  margin-right: 12px;
+}
+
+.lisframes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.lisframes div { margin-right: 24px; } 
+
+.lisframes div img { vertical-align: middle; }
+
+#programming {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+
+#skills-cards {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+
+.frameworks-skills {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  justify-content: space-between;
+  margin-right: 24px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+.lang {
+  list-style: none;
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+#my_skills p {
+  align-self: flex-start;
+  margin: 15px 10% 0 15px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+#frameworks {
+  display: flex;
+  flex-direction: column;
+}
+
+#frameworks div { margin-top: 7px; }
+
+#l1 {
+  height: 5px;
+  margin: 10px 0;
+}
+
+#l1 hr {
+  background: #dfe1e6;
+  height: 1px;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+
+#programming .lang p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500 ;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.frameworks-skills .lang p {
+  font-family: Poppins, sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  color: #253858 !important;
+  margin-left: 15px !important;
+}
+
+.final_wrap {
+  background-color: #fff;
+  border-radius: 7.5%;
+}
