@@ -398,6 +398,7 @@ section > p {
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 20px;
+  margin-top:10px;
 }
 
 #programming {
@@ -405,8 +406,6 @@ section > p {
   flex-direction: column;
   padding-left: 0;
   justify-content: space-between;
-
-
 }
 
 #skills-cards {
@@ -447,10 +446,9 @@ ul#programming {
 #frameworks {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  padding-left: 0;
+  justify-content: space-between;
 }
-
-#frameworks div { margin-top: 7px; }
 
 #l1 {
   height: 5px;
