@@ -158,7 +158,7 @@ section > p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  width: 295px;
+  width: 244px;
   height: 220px;
 }
 
@@ -175,7 +175,7 @@ section > p {
   color: #344563;
   margin-top: 8px;
   text-align: justify;
-  margin-right: 10px;
+  margin-right: 6px;
   margin-bottom: 8px;
 }
 
@@ -225,6 +225,7 @@ section > p {
 }
 
 .skills li {
+  margin: 5px;
   background-color: #ebebfe;
   border-radius: 25%;
   margin-right: 10px;
@@ -247,7 +248,9 @@ section > p {
 .external_link {
   border: 1px solid #396df2;
   border-radius: 5px;
-  width: 35%;
+  width: 124px;
+  height: 48px;
+  top: calc(50% - 48px/2);
   margin-top: 16px;
   padding: 10px;
   text-align: center;
@@ -278,6 +281,8 @@ section > p {
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  margin-bottom: 50px;
+  border-radius: 0 70px 0 0;
 }
 
 #about_me h1 {
@@ -356,12 +361,20 @@ section > p {
   display: flex;
   flex-direction: column;
   margin-top: 35px;
-  margin-left: 24px;
+  margin-left: 20px;
 }
 
 #languages_skills {
   display: flex;
   flex-direction: column;
+}
+
+.lang {
+  list-style: none;
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 5px;
 }
 
 .data-inf {
@@ -370,12 +383,21 @@ section > p {
   margin-right: 12px;
 }
 
-.lisframes div {
+#my_skills ul {
   margin-right: 24px;
+  list-style: none;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
 }
-
-.lisframes div img {
-  vertical-align: middle;
+#frameworks li {
+  margin-right: 24px;
+  list-style: none;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
 }
 
 #programming {
@@ -383,7 +405,8 @@ section > p {
   flex-direction: column;
   padding-left: 0;
   justify-content: space-between;
-  margin-right: 24px;
+
+
 }
 
 #skills-cards {
@@ -404,17 +427,15 @@ section > p {
   margin-top: 0;
 }
 
-.lang {
+ul#programming {
   list-style: none;
   display: flex;
-  background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 5px;
 }
 
 #my_skills p {
   align-self: flex-start;
-  margin: 15px 10% 0 15px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -426,6 +447,7 @@ section > p {
 #frameworks {
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
 }
 
 #frameworks div { margin-top: 7px; }
@@ -455,6 +477,7 @@ section > p {
 
 .show-language {
   margin-left: 95%;
+  margin-bottom: 20px;
 }
 
 .show-frameworks {
