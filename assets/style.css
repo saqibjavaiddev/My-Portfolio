@@ -371,12 +371,12 @@ section > p {
   margin-right: 12px;
 }
 
-.lisframes div { 
-  margin-right: 24px; 
+.lisframes div {
+  margin-right: 24px;
 } 
 
-.lisframes div img { 
-  vertical-align: middle; 
+.lisframes div img {
+  vertical-align: middle;
 }
 
 #programming {
@@ -454,7 +454,7 @@ section > p {
   margin-top: 15px;
 }
 
-.show-language{
+.show-language {
   margin-left: 95%;
 }
 
