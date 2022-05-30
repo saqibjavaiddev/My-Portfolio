@@ -222,6 +222,7 @@ section > p {
   justify-content: flex-start;
   padding-left: 0;
   overflow: auto;
+  float: center;
 }
 
 .skills li {
