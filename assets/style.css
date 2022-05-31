@@ -494,6 +494,7 @@ img.separator {
   margin-left: 0;
   margin-right: 0;
   border: none;
+  display: flex;
   border-radius: 70px 0 0 0;
 }
 
@@ -502,6 +503,8 @@ img.separator {
   margin: 20px;
   padding: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #contact .txt > h2 {
@@ -519,7 +522,8 @@ img.separator {
 }
 
 form {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 5%;
 }
@@ -545,4 +549,8 @@ textarea {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+}
+
+input[type=submit] {
+  width: 35%;
 }
