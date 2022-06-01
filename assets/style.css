@@ -119,8 +119,9 @@ nav {
     margin: 0;
     border-top: none;
     height: 500px;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 14%;
+    padding-right: 14%;
+    padding-top: 10%;
     border-radius: 0 0 0 70px;
     display: flex;
     flex-direction: column;
@@ -147,12 +148,17 @@ nav {
 }
 
 section > h1 {
-  font-weight: bold;
-  font-size: 40px;
+  font-weight: 700;
+  font-size: 48px;
   line-height: 52px;
   display: flex;
   color: #172b4d;
   margin: 12px 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
 }
 
 section > p {
@@ -165,13 +171,10 @@ section > p {
 .social_media {
   position: static;
   min-width: 193.17px;
-  height: 20px;
   left: 24px;
-  top: 470px;
   display: flex;
   flex-wrap: wrap;
   flex: none;
-  order: 3;
   flex-grow: 0;
   margin: 12px 0;
 }
@@ -222,16 +225,17 @@ section > p {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  padding: 25px;
+  padding: 25px 3px 25px 25px;
   margin-left: 10%;
-  grid-column-gap: 20px;
+  margin-right: 0;
+  grid-column-gap: 30px;
   margin-bottom: 100px;
   background-color: #fff;
   border-radius: 2.5%;
 }
 
 .general {
-  padding-right: 5px;
+  grid-column-gap: 20px;
 }
 
 .project_image {
@@ -239,8 +243,8 @@ section > p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  width: 244px;
-  height: 220px;
+  width: 270px;
+  height: 250px;
 }
 
 .general > h3 {
@@ -256,7 +260,6 @@ section > p {
   color: #344563;
   margin-top: 8px;
   text-align: justify;
-  margin-right: 6px;
   margin-bottom: 8px;
 }
 
@@ -365,6 +368,8 @@ section > p {
     background-color: #fff;
     padding-bottom: 95px;
     border-radius: 0 70px 0 0;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
 
@@ -412,7 +417,6 @@ section > p {
   line-height: 24px;
   color: #7f8cff;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 #profile_link h2:hover {
@@ -475,12 +479,34 @@ section > p {
   flex-direction: column;
 }
 
-.lang {
-  list-style: none;
-  display: flex;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-bottom: 5px;
+@media only screen and (max-width: 768px) {
+  .lang {
+    list-style: none;
+    display: flex;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .lang {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 122px;
+    padding: 20px;
+  }
+
+  .lang img {
+    width: 48px;
+    height: 48px;
+    top: 12px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -518,11 +544,22 @@ section > p {
   margin-top: 10px;
 }
 
-#programming {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  justify-content: space-between;
+@media only screen and (min-width: 768px) {
+  #programming {
+    display: flex;
+    padding-left: 0;
+    width: 50%;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #programming {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    justify-content: space-between;
+  }
 }
 
 #skills-cards {
@@ -586,12 +623,20 @@ ul#programming {
   font-size: 15px;
   line-height: 20px;
   color: #253858;
-  margin-left: 15px;
   margin-top: 15px;
 }
 
 .show-language {
-  margin-left: 95%;
+  float: right;
+  margin-top: -5%;
+  padding: 15px;
+}
+
+.show-languagee {
+  float: right;
+  margin-top: -5%;
+  padding: 15px;
+  margin-right: 3%;
 }
 
 .show-frameworks {
