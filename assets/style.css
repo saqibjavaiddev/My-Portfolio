@@ -64,6 +64,10 @@ section > h1 {
   margin: 12px 0;
 }
 
+section > h1:hover {
+  transform: translate(2.1rem, -2ex);
+}
+
 h2 {
   font-weight: 700;
   font-size: 40px;
@@ -111,6 +115,13 @@ h2 {
   font-size: 21px;
 }
 
+.social_media i:hover {
+  color: #505f79;
+  font-size: 21px;
+  transition: transform 1s;
+  transform: rotate(360deg);
+}
+
 .work {
   padding-top: 100px;
   display: grid;
@@ -136,6 +147,12 @@ h2 {
 
 .general > h3 {
   padding-top: 8px;
+}
+
+.general > h3:hover {
+  padding-top: 8px;
+  transition: transform 0.6s;
+  transform: scale(1.3);
 }
 
 .project_description {
@@ -209,6 +226,13 @@ h2 {
   color: #6070ff;
   list-style: none;
   text-align: center;
+}
+
+.mainmenu > li:hover {
+  margin: 10px;
+  list-style: none;
+  transform: scale(1.3);
+  margin-right: 3px;
 }
 
 .title {
@@ -483,6 +507,12 @@ input[type="submit"]:hover {
   .project_image {
     width: 47%;
     height: 97%;
+  }
+
+  .project_image:hover {
+    width: 47%;
+    height: 97%;
+    transform: rotate(5deg);
   }
 
   .project {
