@@ -515,7 +515,7 @@ input[type="submit"]:hover {
     display: flex;
   }
 
-  .about {
+  #about {
     background-image: url("img/Header bg@2x.png");
     background-repeat: no-repeat;
     background-size: 90% 100%;
@@ -619,7 +619,7 @@ input[type="submit"]:hover {
     padding-left: 10%;
   }
 
-  #about section > p {
+  #about p {
     font-weight: 400;
     font-size: 20px;
     color: #344563;
@@ -642,7 +642,7 @@ input[type="submit"]:hover {
     color: #344563;
   }
 
-  #about section > p {
+  #about p {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
@@ -677,7 +677,7 @@ input[type="submit"]:hover {
     display: none;
   }
 
-  .about {
+  #about {
     background-color: white;
     border: 1px solid #dfe1e6;
     background-image: url("img/header-shapes.png");
