@@ -260,15 +260,6 @@ h2 {
   align-items: flex-end;
 }
 
-#presentation {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-}
-
 #profile_link {
   display: flex;
   flex-direction: column;
@@ -476,10 +467,19 @@ input[type="submit"]:hover {
     color: #344563;
   }
 
+  #presentation {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
   .general {
     width: 47%;
   }
-
+  
   .project_image {
     width: 47%;
     height: auto;
@@ -630,6 +630,15 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 768px) {
   input[type=submit] {
     width: 35%;
+  }
+
+  #presentation {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   #my_skills p {
