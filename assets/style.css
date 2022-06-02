@@ -69,8 +69,6 @@ h2 {
   font-size: 40px;
 }
 
-
-
 .social_media {
   position: static;
   min-width: 193.17px;
@@ -369,8 +367,6 @@ ul#programming {
   margin-bottom: 5px;
 }
 
-
-
 #frameworks {
   display: flex;
   flex-direction: column;
@@ -483,14 +479,20 @@ input[type="submit"]:hover {
   .general {
     width: 47%;
   }
+
   .project_image {
     width: 47%;
-    height:auto;
+    height: auto;
   }
+
   .project {
     height: 426px;
   }
-  .project:nth-child(even) { flex-direction: row-reverse; padding: 20px;}
+
+  .project:nth-child(even) {
+    flex-direction: row-reverse;
+    padding: 20px;
+  }
 
   input[type=submit] {
     width: 35%;
@@ -561,7 +563,7 @@ input[type="submit"]:hover {
     width: 122px;
     padding: 20px;
   }
-  
+
   .lang img {
     width: 48px;
     height: 48px;
@@ -574,13 +576,10 @@ input[type="submit"]:hover {
     margin-right: 12px;
     width: 46%;
     padding-left: 50px;
-    
   }
+
   .data-inf h2 {
-    color: #091E42;
-  }
-  .data-inf p {
-    color: #344563;
+    color: #091e42;
   }
 
   #programming {
@@ -619,7 +618,8 @@ input[type="submit"]:hover {
     flex-direction: column;
     padding-left: 10%;
   }
-  section > p {
+
+  #about section > p {
     font-weight: 400;
     font-size: 20px;
     color: #344563;
@@ -631,6 +631,7 @@ input[type="submit"]:hover {
   input[type=submit] {
     width: 35%;
   }
+
   #my_skills p {
     align-self: flex-start;
     font-family: Poppins, sans-serif;
@@ -640,8 +641,8 @@ input[type="submit"]:hover {
     line-height: 24px;
     color: #344563;
   }
-  
-  section > p {
+
+  #about section > p {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
