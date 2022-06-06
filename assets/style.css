@@ -132,7 +132,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  padding: 25px 3px 25px 25px;
+  padding: 25px 13px 25px 25px;
   margin-left: 10%;
   margin-right: 0;
   grid-column-gap: 30px;
@@ -662,6 +662,10 @@ input[type="submit"]:hover {
     width: 35%;
   }
 
+  .project_image {
+    width: 95%;
+  }
+
   #presentation {
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -724,7 +728,8 @@ input[type="submit"]:hover {
     background-size: cover;
     margin: 0;
     border-top: none;
-    height: 590px;
+    height: 600px;
+    padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 100px;
     border-radius: 0 0 0 70px;
