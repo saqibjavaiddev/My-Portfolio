@@ -10,6 +10,11 @@
 ## Project Preview 
 
 ![screenshot](assets/img/preview.png)
+
+## Live Demo
+
+[Live Demo Link](https://saqibjavaiddev.github.io/My-Portfolio/)
+
 ## Built With
 
 - HTML
