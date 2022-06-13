@@ -33,7 +33,6 @@ section > a {
 
 #nav {
   display: flex;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -677,6 +676,9 @@ input[type="submit"]:hover {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+  }
+  #nav {
+    position: fixed;
   }
 }
 
