@@ -9,20 +9,17 @@
   <link rel="stylesheet" href="assets/style.css">
  </head>
  <body>
+  <div class="home-page">
   <header>
-   <nav>
-    <div class="icon"><a href="">My Logo</a></div>
-    <div class="topnav">
-     <i class="fa fa-bars"></i>
-    </div>
-    <div class="topnavdesktop">
+    <nav id="nav">
+      <a class="logo" href="#"><img src="assets/img/logo.png" alt="my logo"/></a> 
+
+      <nav class="hamburger"><img src="assets/img/menu.png" alt="Menu"></nav>
       <ul class="mainmenu">
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+         <li><a href="#work">Portfolio</a></li>
+         <li><a href="#about_me">About</a></li>
+         <li><a href="#contact"> Contact </a></li>
       </ul>
-     </div>
-   </nav>
   </header>
   <main>
       <section id="about">
@@ -52,7 +49,8 @@
           </li>
         </ul>
       </section>
-      <section class="work">
+    </div>
+      <section class="work" id="work">
         <div class="project">
           <img src="assets/img/work1.png" alt="Image project" class="project_image"/>
           <div class="general">
@@ -235,5 +233,6 @@
       </form>
         </section>
     </main>
+    <script src="assets/script.js"> </script>
   </body>
 </html>
