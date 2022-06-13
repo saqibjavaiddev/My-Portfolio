@@ -54,16 +54,16 @@ section > a {
   margin-right: 60%;
 }
 
-#nav .logo:hover {
-  text-decoration: underline;
-  text-decoration-color: #23a3fa;
-}
-
 header #nav .logo {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
+}
+
+#nav .logo:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
 }
 
 .hamburger {
@@ -250,7 +250,7 @@ h2 {
 .mainmenu > li:hover {
   margin: 10px;
   list-style: none;
-  transition: 0.7 ease;
+  transition: 0.7s ease;
   margin-right: 3px;
 }
 
