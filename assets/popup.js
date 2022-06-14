@@ -146,6 +146,8 @@ wrapper.appendChild(infos);
 wrapper.appendChild(image);
 wrapper.appendChild(mobilePart);
 
+
+
 wrapper.style.zIndex = '999';
 wrapper.style.position = 'absolute';
 wrapper.style.top = '0';
