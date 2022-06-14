@@ -33,6 +33,7 @@ const projects = {
 
 const myWork = document.querySelector('#work');
 
+
 function createMobileProjectCard(key) {
   const projectSection = document.createElement('div');
   const img = document.createElement('img');
@@ -96,6 +97,9 @@ const btnLive = document.createElement('a');
 const externalButton = document.createElement('div');
 const wrapper = document.createElement('div');
 const home = document.querySelector('.home-page');
+const about = document.querySelector('#about');
+const head = document.querySelector('#nav');
+const wwork = document.querySelector('#work');
 const cancelBtn = document.createElement('img');
 const imgWrapper = document.createElement('div');
 const header = document.createElement('div');
@@ -146,9 +150,9 @@ wrapper.appendChild(mobilePart);
 wrapper.style.zIndex = '999';
 wrapper.style.position = 'absolute';
 wrapper.style.top = '0';
-
 wrapper.classList.add('pop-window');
 wrapper.style.visibility = 'hidden';
+
 home.appendChild(wrapper);
 
 popUpBtn.forEach((btn) => {
@@ -168,6 +172,9 @@ popUpBtn.forEach((btn) => {
     skills.classList.add('techns');
 
     home.style.backgroundColor = 'rgba(193, 199, 208, 0.7)';
+    about.style.backgroundColor = 'rgba(193, 199, 208, 0.7)';
+    head.style.backgroundColor = 'rgba(193, 199, 208, 0.7)';
+    wwork.style.backgroundColor = 'rgba(193, 199, 208, 0.7)';
     wrapper.style.visibility = 'visible';
 
     wrapper.style.position = 'fixed';
@@ -179,5 +186,8 @@ const cancel = document.querySelector('.pop-header-div');
 cancel.addEventListener('click', () => {
   document.querySelector('.pop-window').style.visibility = 'hidden';
   home.style.backgroundColor = '#fff';
+  about.style.backgroundColor = '#fff';
+  head.style.backgroundColor = '#fff';
+  wwork.style.backgroundColor = '#E5E5E5';
   wrapper.style.position = 'hidden';
 });
