@@ -1,5 +1,5 @@
 * {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -37,6 +37,7 @@ section > a {
 
 #nav nav:hover {
   cursor: pointer;
+
 }
 
 #nav .logo {
@@ -54,6 +55,7 @@ section > a {
   margin-right: 60%;
 }
 
+
 #nav .logo:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
@@ -63,7 +65,8 @@ header #nav .logo {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 20px
+  ;
 }
 
 .hamburger {
