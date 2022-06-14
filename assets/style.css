@@ -235,6 +235,7 @@ h2 {
   justify-content: flex-start;
   padding-left: 0;
   overflow: auto;
+  margin-bottom: 30px;
 }
 
 .skills li {
@@ -698,7 +699,9 @@ input[type="submit"]:hover {
   }
 
   .pop-header-h3 {
-    margin-left: 48px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Poppins;
   }
 
   .mobile-part-class {
@@ -715,6 +718,8 @@ input[type="submit"]:hover {
   .pop-header-description {
     width: 65%;
     margin-right: 4%;
+    font-weight: 400;
+    font-size: 16px;
   }
 }
 
@@ -726,7 +731,7 @@ input[type="submit"]:hover {
     height: 100vh;
     width: 95%;
     margin-left: 2.5%;
-    padding: 10%;
+    padding: 3%;
   }
 
   .pop-header {
@@ -736,11 +741,10 @@ input[type="submit"]:hover {
 
   .pop-header-div {
     float: right;
-    margin-left: 70%;
+    margin-left: 21%;
   }
 
   .pop-header-h3 {
-    margin-left: 16px;
     margin-top: 12px;
     margin-bottom: 0;
     font-weight: bold;
@@ -765,7 +769,7 @@ input[type="submit"]:hover {
     align-items: baseline;
     justify-content: flex-start;
     padding-left: 0;
-    margin-top: 7%;
+    margin-top: 15%;
     margin-bottom: 4%;
   }
 
