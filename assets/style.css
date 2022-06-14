@@ -14,8 +14,7 @@ header {
   left: 0;
   right: 0;
   top: 44px;
-  background-color: white;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   padding-left: 3%;
   padding-right: 2.7%;
 }
@@ -153,6 +152,7 @@ h2 {
 }
 
 .project {
+  margin-top: 5%;
   display: flex;
   flex-wrap: wrap;
   width: 80%;
@@ -234,6 +234,7 @@ h2 {
   justify-content: flex-start;
   padding-left: 0;
   overflow: auto;
+  margin-bottom: 30px;
 }
 
 .skills li {
@@ -537,12 +538,6 @@ input[type="submit"]:hover {
     height: 97%;
   }
 
-  .project_image:hover {
-    width: 47%;
-    height: 97%;
-    transform: rotate(5deg);
-  }
-
   .project {
     height: 426px;
   }
@@ -560,6 +555,12 @@ input[type="submit"]:hover {
 
   section {
     display: flex;
+  }
+
+  section#work {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
   }
 
   #about {
@@ -681,9 +682,110 @@ input[type="submit"]:hover {
   #nav {
     position: fixed;
   }
+
+  .pop-window {
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
+    background-color: #fff;
+  }
+
+  .pop-header-div {
+    justify-content: flex-end;
+    float: right;
+    margin-top: -4%;
+  }
+
+  .pop-header-h3 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .mobile-part-class {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .pop-header-img {
+    width: 96%;
+    height: 586px;
+  }
+
+  .pop-header-description {
+    width: 65%;
+    margin-right: 4%;
+    font-weight: 400;
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .pop-window {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100vh;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 3%;
+  }
+
+  .pop-header {
+    display: flex;
+    width: 100%;
+  }
+
+  .pop-header-div {
+    float: right;
+    margin-left: 21%;
+  }
+
+  .pop-header-h3 {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #172b4d;
+    font-family: Poppins, sans-serif;
+    line-height: 44px;
+  }
+
+  .mobile-part-class {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pop-header-img {
+    width: 80%;
+    margin-top: 0;
+  }
+
+  .techns {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-top: 15%;
+    margin-bottom: 4%;
+  }
+
+  .inf {
+    display: flex;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 0;
+    color: #344563;
+  }
+
+  .pop-header-description {
+    max-height: 45%;
+  }
+
   .mainmenu {
     display: none;
   }
