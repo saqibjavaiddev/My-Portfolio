@@ -8,8 +8,6 @@ const projects = {
     linkToLiveVersion: '#',
     linkToSource: 'https://github.com/saqibjavaiddev',
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
-
-    
   },
   p16: {
     name: 'Shiz Pet Store',
