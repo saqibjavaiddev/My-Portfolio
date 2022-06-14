@@ -33,7 +33,6 @@ const projects = {
 
 const myWork = document.querySelector('#work');
 
-
 function createMobileProjectCard(key) {
   const projectSection = document.createElement('div');
   const img = document.createElement('img');
