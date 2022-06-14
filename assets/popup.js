@@ -125,8 +125,8 @@ title.style.marginLeft = '32px';
 header.appendChild(imgWrapper);
 header.classList.add('pop-header');
 btnSource.innerHTML =
-  '<img src='assets/img/gitbutton.png' alt='Live version'> ';
-btnLive.innerHTML = '<img src='assets/img/livebutton.png' alt='Live version'> ';
+  '<img src="assets/img/gitbutton.png" alt="Live version"> ';
+btnLive.innerHTML = '<img src="assets/img/livebutton.png" alt="Live version"> ';
 externalButton.appendChild(btnLive);
 externalButton.appendChild(btnSource);
 externalButton.style.marginBottom = '32px';
