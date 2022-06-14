@@ -106,7 +106,7 @@ const description = document.createElement('p');
 const skills = document.createElement('ul');
 
 imgWrapper.classList.add('pop-header-div');
-cancelBtn.src = 'assets/img/icon.svg';
+cancelBtn.src = 'assets/img/Icon.svg';
 imgWrapper.appendChild(cancelBtn);
 
 btnSource.target = '_blank';
