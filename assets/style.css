@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #e5e5e5;
 }
@@ -12,9 +13,10 @@ body {
 span { 
   font-weight: 400;
   font-size: 20px;
-  color: red; 
+  color: red;
   text-align: center;
 }
+
 header {
   left: 0;
   right: 0;
