@@ -96,8 +96,6 @@ function populateStorage() {
     message: form.elements.message.value,
   };
 
-
-
   localStorage.setItem('userInput', JSON.stringify(userInput));
 }
 function setForm() {
