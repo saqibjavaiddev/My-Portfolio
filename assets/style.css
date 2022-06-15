@@ -10,6 +10,13 @@ body {
   background-color: #e5e5e5;
 }
 
+span {
+  font-weight: 400;
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+
 header {
   left: 0;
   right: 0;
@@ -647,6 +654,7 @@ input[type="submit"]:hover {
     flex-direction: column;
     padding-left: 27%;
     padding-right: 27%;
+    padding-bottom: 80px;
   }
 
   .txt {
@@ -719,9 +727,24 @@ input[type="submit"]:hover {
     font-weight: 400;
     font-size: 16px;
   }
+
+  .bottom-bar {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .bottom-bar {
+    margin-top: 50px;
+    background-color: #0d151e;
+    height: 4px;
+    width: 150px;
+    border: 1px solid #0d151e;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .pop-window {
     display: flex;
     flex-direction: column;
