@@ -1,6 +1,5 @@
 const hamburger = document.querySelector('.hamburger');
 const body = document.querySelector('body');
-
 hamburger.addEventListener('click', () => {
   const div = document.createElement('div');
   const img = document.createElement('img');
@@ -17,7 +16,6 @@ hamburger.addEventListener('click', () => {
     lineHeight: '44px',
     textDecoration: 'none',
   };
-
   divWrap.style.backgroundColor = 'rgba(96, 112, 255,0.9)';
   img.src = 'assets/img/close.png';
   img.style.float = 'right';
@@ -38,12 +36,10 @@ hamburger.addEventListener('click', () => {
     divWrap.style.display = 'none';
     body.style.overflow = 'auto';
   });
-
   div.appendChild(img);
   div.appendChild(links);
   divWrap.append(div);
   home.appendChild(divWrap);
-
   for (let i = 0; i < linksChilds.length; i += 1) {
     const eltChildren = linksChilds[i].children;
     eltChildren[0].addEventListener('click', () => {
@@ -58,7 +54,6 @@ hamburger.addEventListener('click', () => {
 });
 
 // Email Validation //
-
 function isLowerCase(input) {
   const str = input.value.trim();
   return str === str.toLowerCase();
@@ -84,7 +79,6 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
-
 /* save form data */
 const userName = form.elements.name;
 const userEmail = form.elements.email;
@@ -95,18 +89,13 @@ function populateStorage() {
     email: form.elements.email.value,
     message: form.elements.message.value,
   };
-
   localStorage.setItem('userInput', JSON.stringify(userInput));
 }
 function setForm() {
-
-
-
   const storedInput = JSON.parse(localStorage.getItem('userInput'));
   const currentUserName = storedInput.name;
   const currentUserEmail = storedInput.email;
   const currentMessage = storedInput.message;
-
   form.elements.name.value = currentUserName;
   form.elements.email.value = currentUserEmail;
   form.elements.message.value = currentMessage;
@@ -114,8 +103,6 @@ function setForm() {
 if (!localStorage.getItem('userInput')) {
   populateStorage();
 } else {
-
-  
   setForm();
 }
 userName.onchange = populateStorage;
