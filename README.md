@@ -2,6 +2,8 @@
 
 # Setup Portfolio : Mobile version skeleton
 
+My portfolio website that showcase my skills, tools and technologies that I use build using HTML and CSS
+
 > Set up "Mobile version skeleton" project. Learning Objectives are:
 > - Understand how to parse a Figma design to create a UI.
 > - Usage of flexbox in the page.
